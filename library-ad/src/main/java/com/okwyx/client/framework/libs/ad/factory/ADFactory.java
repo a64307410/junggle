@@ -27,7 +27,6 @@ public class ADFactory implements IADGeneral{
     @Override
     public void showSplash(Activity activity, ADListener listener) {
 
-
     }
 
     @Override
