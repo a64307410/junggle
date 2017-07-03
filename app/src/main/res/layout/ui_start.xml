@@ -1,0 +1,118 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@mipmap/ui_start_bg">
+
+    <ImageView
+        android:id="@+id/logo"
+        android:layout_width="@dimen/sina_sng_football_logo_width"
+        android:layout_height="@dimen/sina_sng_football_logo_height"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="@dimen/sina_sng_juggle_study_margin_top"
+        android:src="@mipmap/ui_logo" />
+
+    <RelativeLayout
+        android:id="@+id/banner_champion"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/logo"
+        android:layout_marginBottom="5dip"
+        android:layout_marginLeft="20dip"
+        android:layout_marginRight="20dip"
+        android:layout_marginTop="40dip">
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:src="@mipmap/ui_score_text" />
+
+            <TextView
+                android:id="@+id/score_tv"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical"
+                android:paddingBottom="3dp"
+                android:layout_marginLeft="5dp"/>
+
+        </LinearLayout>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/bottom_layout"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_margin="5dip">
+
+        <ImageView
+            android:id="@+id/audio"
+            android:layout_width="@dimen/sina_sng_football_bottomicon_width"
+            android:layout_height="@dimen/sina_sng_football_bottomicon_height"
+            android:layout_alignParentLeft="true"
+            android:src="@mipmap/ui_voice_on" />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/content_viewgroup"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/bottom_layout"
+        android:layout_below="@+id/banner_champion">
+
+        <Button
+            android:id="@+id/play"
+            android:layout_width="@dimen/sina_sng_football_play_width"
+            android:layout_height="@dimen/sina_sng_football_play_height"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="20dip"
+            android:background="@drawable/ui_start_selector" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/btn_change_guoqi"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_margin="5dip">
+
+        <ImageView
+            android:id="@+id/iv_chooseteam_ad"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentTop="true" />
+
+        <include
+            android:id="@+id/img_change_guoqi"
+            layout="@layout/widget_frame_flag"
+            android:layout_width="@dimen/sina_sng_football_img_flag_width"
+            android:layout_height="@dimen/sina_sng_football_img_flag_height" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dip"
+            android:scaleX="0.40"
+            android:scaleY="0.40"
+            android:src="@mipmap/ui_team_change" />
+
+        <ImageView
+            android:layout_width="@dimen/sina_sng_football_img_flag2_width"
+            android:layout_height="@dimen/sina_sng_football_img_flag2_height"
+            android:layout_below="@+id/img_change_guoqi"
+            android:layout_marginLeft="4dip"
+            android:layout_marginTop="2dip"
+            android:src="@mipmap/ui_team_change_txt" />
+    </RelativeLayout>
+
+</RelativeLayout>

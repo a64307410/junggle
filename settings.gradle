@@ -1,0 +1,1 @@
+include ':app', ':library-plugin', ':library-gameengine', ':library-network', ':library-imgloader', ':library-weibo', ':library', ':library-log', ':library-ad'

@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <ImageView
+        android:id="@+id/ad_splash_imgview"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="fitXY" />
+
+    <com.okwyx.client.framework.libs.ad.widget.SkipProgressBar
+        android:id="@+id/ad_splash_skipbar"
+        android:layout_width="42dp"
+        android:layout_height="42dp"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="15dp"
+        android:layout_marginTop="20dp" />
+
+    <TextView
+        android:id="@+id/ad_name_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="30dp"
+        android:text="@string/ad_name"
+        android:textColor="@color/color_adtext"
+        android:textSize="13sp" />
+
+    <RelativeLayout
+        android:id="@+id/ad_item_layout"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/ad_item_height"
+        android:layout_alignParentBottom="true"
+        android:background="#65000000">
+
+        <ImageView
+            android:id="@+id/ad_arrow_imgview"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="15dp"
+            android:src="@drawable/ad_arrow" />
+
+        <TextView
+            android:id="@+id/ad_desc_tv"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="10dp"
+            android:layout_toLeftOf="@+id/ad_arrow_imgview"
+            android:gravity="left"
+            android:maxLines="1"
+            android:textColor="@android:color/white"
+            android:textSize="@dimen/ad_desc_size" />
+    </RelativeLayout>
+
+</RelativeLayout>

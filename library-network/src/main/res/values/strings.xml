@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">library-network</string>
+
+    <string name="app_loading">加载中...</string>
+    <string name="app_net_error">外星人驾到，网络被干扰</string>
+    <string name="app_error_retry">轻点屏幕尝试重新连接</string>
+
+
+</resources>

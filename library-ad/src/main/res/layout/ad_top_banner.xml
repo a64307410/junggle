@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="70dip"
+    android:layout_marginLeft="3dip"
+    android:layout_marginRight="3dip"
+    android:layout_marginTop="2dip"
+    android:background="@drawable/tencent_ad_top_bg">
+
+    <ImageView
+        android:id="@+id/ad_img_icon"
+        android:layout_width="48dip"
+        android:layout_height="48dip"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="10dip"
+        android:src="@android:color/white" />
+
+    <TextView
+        android:id="@+id/ad_name_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="15dp"
+        android:layout_centerVertical="true"
+        android:text="@string/ad_name"
+        android:textColor="@color/color_adtext"
+        android:textSize="13sp" />
+
+
+    <FrameLayout
+        android:id="@+id/adclose_img"
+        android:layout_width="wrap_content"
+        android:layout_height="fill_parent"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:padding="10dip">
+
+        <ImageView
+            android:layout_width="20dip"
+            android:layout_height="20dip"
+            android:layout_gravity="center"
+            android:src="@drawable/tencent_plugin_notify_close_selector" />
+    </FrameLayout>
+
+    <LinearLayout
+        android:id="@+id/adcenter_layout"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="5dip"
+        android:layout_toLeftOf="@+id/adclose_img"
+        android:layout_toRightOf="@+id/ad_img_icon"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/ad_tv_title"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dip"
+            android:layout_marginRight="5dip"
+            android:singleLine="true"
+            android:textColor="#333333"
+            android:textSize="15sp"
+            android:text="标题"/>
+
+        <TextView
+            android:id="@+id/ad_tv_desc"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dip"
+            android:layout_marginRight="5dip"
+            android:layout_marginTop="3dip"
+            android:singleLine="true"
+            android:textColor="#999999"
+            android:textSize="14sp"
+            android:text="描述描述"/>
+    </LinearLayout>
+
+
+</RelativeLayout>

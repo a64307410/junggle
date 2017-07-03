@@ -1,0 +1,24 @@
+<resources>
+    <style name="BDTheme" parent="@android:style/Theme"></style>
+
+    <style name="BDTheme.NoTitleBar" parent="@style/BDTheme">
+        <item name="android:windowNoTitle">true</item>
+    </style>
+
+    <style name="NoTitle" parent="@style/BDTheme.NoTitleBar">
+        <item name="android:windowBackground">@null</item>
+        <item name="android:windowContentOverlay">@null</item>
+    </style>
+
+    <style name="NoTitleNoAnimation" parent="@style/NoTitle">
+        <item name="android:windowAnimationStyle">@null</item>
+    </style>
+
+    <style name="NoAniFullscreen" parent="@style/NoTitleNoAnimation">
+        <item name="android:windowFullscreen">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:windowIsTranslucent">true</item>
+    </style>
+
+
+</resources>

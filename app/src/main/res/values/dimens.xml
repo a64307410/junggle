@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="sina_sng_juggle_study_margin_top">80dip</dimen>
+
+    <dimen name="sina_sng_football_logo_width">255.5dip</dimen>
+    <dimen name="sina_sng_football_logo_height">85.5dip</dimen>
+    <dimen name="sina_sng_football_bottomicon_width">40dip</dimen>
+    <dimen name="sina_sng_football_bottomicon_height">32dip</dimen>
+
+    <dimen name="sina_sng_football_bottomicon2_width">79.5dip</dimen>
+    <dimen name="sina_sng_football_bottomicon2_height">30dip</dimen>
+
+
+    <dimen name="sina_sng_juggle_start_champion_width">74dip</dimen>
+    <dimen name="sina_sng_juggle_start_champion_height">20dip</dimen>
+
+    <dimen name="sina_sng_juggle_choose_go_width">197.5dip</dimen>
+    <dimen name="sina_sng_juggle_choose_go_height">63.5dip</dimen>
+
+    <!-- 276 144 -->
+    <dimen name="sina_sng_football_play_width">197.5dip</dimen>
+    <dimen name="sina_sng_football_play_height">63.5dip</dimen>
+    <dimen name="sina_sng_football_margintop">50dip</dimen>
+    <dimen name="sina_sng_football_marginbottom1">15dip</dimen>
+    <dimen name="sina_sng_football_marginbottom2">10dip</dimen>
+
+    <!-- btn -->
+    <dimen name="sina_sng_football_btn_width">136.5dip</dimen>
+    <dimen name="sina_sng_football_btn_height">43dip</dimen>
+
+
+    <dimen name="sina_sng_football_img_flag2_width">34dip</dimen>
+    <dimen name="sina_sng_football_img_flag2_height">12dip</dimen>
+    <dimen name="sina_sng_football_img_flag_width">41dip</dimen>
+    <dimen name="sina_sng_football_img_flag_height">32dip</dimen>
+    <dimen name="sina_sng_football_img_change_width">42.5dip</dimen>
+    <dimen name="sina_sng_football_img_change_height">35.5dip</dimen>
+
+
+    <!-- logo -->
+    <dimen name="sina_sng_football_ranklogo_width">75dip</dimen>
+    <dimen name="sina_sng_football_ranklogo_height">36.5dip</dimen>
+    <dimen name="sina_sng_football_ranktv_width">44dip</dimen>
+    <dimen name="sina_sng_football_ranktv_height">17.5dip</dimen>
+    <dimen name="sina_sng_football_ranktv_margintop">2dip</dimen>
+    <dimen name="sina_sng_football_ranktv_marginleft">22dip</dimen>
+    <dimen name="sina_sng_football_myrank_margintop">10dip</dimen>
+    <dimen name="sina_sng_football_myrank_width">57dip</dimen>
+    <dimen name="sina_sng_football_myrank_height">16dip</dimen>
+    <dimen name="sina_sng_football_ground_width">207dip</dimen>
+    <dimen name="sina_sng_football_ground_height">27.5dip</dimen>
+    <dimen name="sina_sng_football_ground_margintop_1">12dip</dimen>
+    <dimen name="sina_sng_football_ground_margintop_2">8dip</dimen>
+    <dimen name="sina_sng_football_listview_height">225dip</dimen>
+    <dimen name="sina_sng_football_retry_margintop">210dip</dimen>
+    <dimen name="sina_sng_football_retry_width">136.5dip</dimen>
+    <dimen name="sina_sng_football_retry_height">43dip</dimen>
+    <dimen name="sina_sng_football_btn_margin">20dip</dimen>
+    <dimen name="sina_sng_football_btn_margintop">10dip</dimen>
+
+    <!-- 居中距下距离 -->
+    <dimen name="sina_sng_football_center_margintop">15dip</dimen>
+    <dimen name="sina_sng_football_center_marginbottom">20dip</dimen>
+    <dimen name="sina_sng_football_ready_width">278dip</dimen>
+    <dimen name="sina_sng_football_ready_height">68dip</dimen>
+    <dimen name="sina_sng_football_start_width">87.5dip</dimen>
+    <dimen name="sina_sng_football_start_height">17dip</dimen>
+    <dimen name="sina_sng_football_hand_width">86.5dip</dimen>
+    <dimen name="sina_sng_football_hand_height">73dip</dimen>
+
+    <!-- 排行榜 -->
+    <!-- 头部 -->
+    <dimen name="sina_sng_juggle_rank_notice_margintop">50dip</dimen>
+    <dimen name="sina_sng_juggle_rank_notice_marginleft">150dip</dimen>
+    <dimen name="sina_sng_juggle_rank_height">48dip</dimen>
+    <dimen name="sina_sng_juggle_rank_text_height">18.5dip</dimen>
+    <dimen name="sina_sng_juggle_rank_text_width">99dip</dimen>
+    <dimen name="sina_sng_juggle_rank_text_height_1">18.5dip</dimen>
+    <dimen name="sina_sng_juggle_rank_text_width_1">30dip</dimen>
+    <dimen name="sina_sng_juggle_rank_marginleft_1">50.0dip</dimen>
+    <dimen name="sina_sng_juggle_rank_marginleft_2">10.0dip</dimen>
+    <dimen name="sina_sng_juggle_rank_top_margin_1">5.0dip</dimen>
+    <dimen name="sina_sng_juggle_rank_top_margin_2">8.0dip</dimen>
+    <dimen name="sina_sng_juggle_rank_top_height">40.0dip</dimen>
+    <dimen name="sina_sng_juggle_rank_score_bg_width">212.5dip</dimen>
+    <dimen name="sina_sng_juggle_rank_score_bg_height">51dip</dimen>
+    <dimen name="sina_sng_juggle_rank_score_top_width">80.5dip</dimen>
+    <dimen name="sina_sng_juggle_rank_score_top_height">25.5dip</dimen>
+    <dimen name="sina_sng_juggle_rank_score_top_marginleft">20.5dip</dimen>
+    <dimen name="sina_sng_juggle_rank_showoff_height">53dip</dimen>
+    <dimen name="sina_sng_juggle_rank_showoff_width">68.5dip</dimen>
+    <dimen name="sina_sng_juggle_rank_btn_width">138dip</dimen>
+    <dimen name="sina_sng_juggle_rank_btn_height">48.5dip</dimen>
+    <dimen name="sina_sng_juggle_bottom_btn_width">106dip</dimen>
+    <dimen name="sina_sng_juggle_bottom_btn_height">40dip</dimen>
+    <dimen name="sina_sng_juggle_bottom_padding_l">20.5dip</dimen>
+    <dimen name="sina_sng_juggle_bottom_padding_r">20.5dip</dimen>
+    <dimen name="sina_sng_juggle_bottom_padding_b">4dip</dimen>
+    <dimen name="sina_sng_juggle_bottom_go_width">145dip</dimen>
+    <dimen name="sina_sng_juggle_bottom_go_height">51dip</dimen>
+    <dimen name="sina_sng_juggle_rank_item_margin">5.0dip</dimen>
+    <dimen name="sina_sng_juggle_rank_item_height">64.0dip</dimen>
+    <dimen name="sina_sng_juggle_rank_item_score_minwidth">60.0dip</dimen>
+    <dimen name="sina_sng_juggle_rank_item_score_maxwidth">80.0dip</dimen>
+    <dimen name="sina_sng_football_chooseteam_margin">45dip</dimen>
+    <dimen name="sina_sng_football_chooseteam_itemwidth">90dip</dimen>
+    <dimen name="sina_sng_football_chooseteam_itemheight">68dip</dimen>
+    <dimen name="sina_sng_football_chooseteam_flagwidth">62dip</dimen>
+    <dimen name="sina_sng_football_chooseteam_flagheight">45dip</dimen>
+
+    <dimen name="sina_sng_football_feed_width">120dip</dimen>
+    <dimen name="sina_sng_football_feed_height">30dip</dimen>
+
+    <!-- dialog -->
+    <dimen name="sina_sng_juggle_dialog_notice_width">193dip</dimen>
+    <dimen name="sina_sng_juggle_dialog_notice_height">132dip</dimen>
+    <dimen name="sina_sng_juggle_dialog_margintop">40dip</dimen>
+
+
+    <dimen name="sina_sng_juggle_rank_imagewidth">44dip</dimen>
+    <dimen name="sina_sng_juggle_rank_imageheight">36dip</dimen>
+
+    <dimen name="sina_sng_juggle_rank_imagewidth_m">48dip</dimen>
+    <dimen name="sina_sng_juggle_rank_imageheight_m">40dip</dimen>
+    <dimen name="sina_sng_juggle_rank_top_marginleft">50dip</dimen>
+    <dimen name="sina_sng_juggle_rank_top_percent_width">110dip</dimen>
+
+    <dimen name="sina_sng_juggle_checkbox_width">160dp</dimen>
+
+
+    <dimen name="sina_sng_loadding_height1">55dip</dimen>
+    <dimen name="sina_sng_loadding_widht1">32dip</dimen>
+    <dimen name="sina_sng_loadding_height2">18dip</dimen>
+    <dimen name="sina_sng_loadding_widht2">70dip</dimen>
+
+</resources>

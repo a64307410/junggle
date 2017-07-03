@@ -1,0 +1,139 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.okwyx.client.plugin">
+
+    <application android:allowBackup="true" android:label="@string/app_name"
+        android:supportsRtl="true">
+
+
+        <!-- bugly预注册 -->
+        <activity
+            android:name="com.tencent.bugly.beta.ui.BetaActivity"
+            android:configChanges="keyboardHidden|orientation|screenSize|locale"
+            android:theme="@android:style/Theme.Translucent" />
+
+        <!-- 注册两组service插件 -->
+        <service android:name="com.okwyx.plugin.service.StubService"/>
+        <service android:name="com.okwyx.plugin.service.StubProcessService"
+            android:process=":runningProcess"/>
+
+
+        <!-- 第一组预留插件 -->
+        <activity
+            android:name="com.okwyx.plugin.activity.StubActivity"
+            android:configChanges="fontScale|orientation|keyboardHidden|locale|navigation|screenSize|uiMode"
+            android:theme="@android:style/Theme.Translucent.NoTitleBar"
+            android:windowSoftInputMode="stateHidden|stateUnchanged"
+            android:launchMode="standard"/>
+
+        <activity
+            android:name="com.okwyx.plugin.activity.StubSIActivity"
+            android:configChanges="fontScale|orientation|keyboardHidden|locale|navigation|screenSize|uiMode"
+            android:theme="@android:style/Theme.Translucent.NoTitleBar"
+            android:windowSoftInputMode="stateHidden|stateUnchanged"
+            android:launchMode="singleInstance"
+            />
+        <activity
+            android:name="com.okwyx.plugin.activity.StubSTAActivity"
+            android:configChanges="fontScale|orientation|keyboardHidden|locale|navigation|screenSize|uiMode"
+            android:theme="@android:style/Theme.Translucent.NoTitleBar"
+            android:windowSoftInputMode="stateHidden|stateUnchanged"
+            android:launchMode="singleTask"
+            />
+        <activity
+            android:name="com.okwyx.plugin.activity.StubSTOctivity"
+            android:configChanges="fontScale|orientation|keyboardHidden|locale|navigation|screenSize|uiMode"
+            android:theme="@android:style/Theme.Translucent.NoTitleBar"
+            android:windowSoftInputMode="stateHidden|stateUnchanged"
+            android:launchMode="singleTop"
+            />
+        <!-- 第二组进程外预留插件 -->
+        <activity
+            android:name="com.okwyx.plugin.activity.Stub1Activity"
+            android:configChanges="fontScale|orientation|keyboardHidden|locale|navigation|screenSize|uiMode"
+            android:theme="@android:style/Theme.Translucent.NoTitleBar"
+            android:windowSoftInputMode="stateHidden|stateUnchanged"
+            android:launchMode="standard"
+            android:process=":runningProcess"/>
+
+        <activity
+            android:name="com.okwyx.plugin.activity.Stub1SIActivity"
+            android:configChanges="fontScale|orientation|keyboardHidden|locale|navigation|screenSize|uiMode"
+            android:theme="@android:style/Theme.Translucent.NoTitleBar"
+            android:windowSoftInputMode="stateHidden|stateUnchanged"
+            android:launchMode="singleInstance"
+            android:process=":runningProcess"
+            />
+        <activity
+            android:name="com.okwyx.plugin.activity.Stub1STAActivity"
+            android:configChanges="fontScale|orientation|keyboardHidden|locale|navigation|screenSize|uiMode"
+            android:theme="@android:style/Theme.Translucent.NoTitleBar"
+            android:windowSoftInputMode="stateHidden|stateUnchanged"
+            android:launchMode="singleTask"
+            android:process=":runningProcess"
+            />
+        <activity
+            android:name="com.okwyx.plugin.activity.Stub1STOctivity"
+            android:configChanges="fontScale|orientation|keyboardHidden|locale|navigation|screenSize|uiMode"
+            android:theme="@android:style/Theme.Translucent.NoTitleBar"
+            android:windowSoftInputMode="stateHidden|stateUnchanged"
+            android:launchMode="singleTop"
+            android:process=":runningProcess"
+            />
+        <!-- 第三组同进程内预留插件(主要给三方sdk) -->
+        <activity
+            android:name="com.okwyx.plugin.activity.Stub2Activity"
+            android:configChanges="fontScale|orientation|keyboardHidden|locale|navigation|screenSize|uiMode"
+            android:theme="@android:style/Theme.Translucent.NoTitleBar"
+            android:windowSoftInputMode="stateHidden|stateUnchanged"
+            android:launchMode="standard"/>
+
+        <activity
+            android:name="com.okwyx.plugin.activity.Stub2SIActivity"
+            android:configChanges="fontScale|orientation|keyboardHidden|locale|navigation|screenSize|uiMode"
+            android:theme="@android:style/Theme.Translucent.NoTitleBar"
+            android:windowSoftInputMode="stateHidden|stateUnchanged"
+            android:launchMode="singleInstance"
+            />
+        <activity
+            android:name="com.okwyx.plugin.activity.Stub2STAActivity"
+            android:configChanges="fontScale|orientation|keyboardHidden|locale|navigation|screenSize|uiMode"
+            android:theme="@android:style/Theme.Translucent.NoTitleBar"
+            android:windowSoftInputMode="stateHidden|stateUnchanged"
+            android:launchMode="singleTask"
+            />
+        <activity
+            android:name="com.okwyx.plugin.activity.Stub2STOctivity"
+            android:configChanges="fontScale|orientation|keyboardHidden|locale|navigation|screenSize|uiMode"
+            android:theme="@android:style/Theme.Translucent.NoTitleBar"
+            android:windowSoftInputMode="stateHidden|stateUnchanged"
+            android:launchMode="singleTop"
+            />
+
+
+    </application>
+
+
+
+    <!-- Include following permission if you load images from Internet -->
+    <uses-permission android:name="android.permission.INTERNET" />
+    <!-- Include following permission if you want to cache images on SD card -->
+
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.READ_LOGS" />
+
+    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
+    <uses-permission android:name="android.permission.GET_TASKS" />
+
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE"/>
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+
+    <!--保存资源到SD卡-->
+</manifest>
